@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #f2e9e1;
+}
+
+.contenedor img{
+    width: 300px;
+    height: 450px;
+    border-radius: 10px;
+
+}
+
+.contenedor{
+    width: 600px;
+    height: 450px;
+    background-color: white;
+    position: absolute;
+    left: 420px; /* Coordenada X */
+    top: 175px; /* Coordenada Y */
+    border-radius: 10px;
+}
+
+.contenedor h2{
+    position: absolute;
+    left: 331.5px;
+    top: 32px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #6c7289;
+    font-family: Montserrat;
+    letter-spacing: 5px;
+}
+
+.contenedor h1
+{
+    position: absolute;
+    left: 332px;
+    top: 67px;
+    width: 236px;
+    color: #1c232b;
+    font-size: 32px;
+    font-family: Fraunces;
+    line-height: 32px;
+    font-weight: 900;    
+
+}
+
+.contenedor h1:hover{
+    filter: drop-shadow(0px 4px 4px rgba(0,0,0,0.25));
+    cursor: pointer;
+}
+
+.contenedor p
+{
+    position: absolute;
+    left: 331.5px;
+    top: 187px;
+    font-size: 14px;
+    font-family: Montserrat;
+    width: 237px;
+    line-height: 23px;
+    text-align: left;
+    color: #6c7289;
+}
+
+.contenedor span:nth-child(1){
+    position: absolute;
+    left: 332px;
+    top: 308px;
+    color: #3c8167;
+    font-size: 32px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 32px;
+    width: 127px;
+}
+
+.contenedor span:nth-child(2)
+{
+    position: absolute;
+    left: 478px;
+    top: 313px;
+    color: #6c7289;
+    font-size: 13px;
+    font-family: Montserrat;
+    line-height: 23px;
+    text-decoration: line-through;
+    width: 48px;
+}
+
+.contenedor >  button   > .carro{
+    
+    height: 16px ;
+    width: 14.39px ;
+    display: block;
+    position: static;
+    left: 0px;
+    top: 1px;
+    margin-left: 55px;
+}
+
+
+.contenedor >  button > p
+{
+    color: #ffffff;
+    font-size: 14px;
+    font-family: Montserrat;
+    position: static;
+    text-align: center;
+    font-weight: 900;
+    margin-left: 10px;
+    margin-top: -19px;
+
+
+}
+.contenedor >  button
+{
+    width: 236px;
+    height: 48px;
+    background-color: #3d8269;
+    border-radius: 10px;
+    left: 332px;
+    top: 370px;
+    position: absolute;
+
+}
+
+.contenedor >  button:hover{
+    cursor: pointer;
+    background-color: #1a4032;
+}
+

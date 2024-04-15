@@ -1,0 +1,126 @@
+@media (min-width:320px) and (max-width:374px) 
+{
+    .contenedor
+    {
+        width: 281px;
+        height: 611px;
+        position: absolute;
+        left: 16px;
+        top: 28px;
+        margin: 0 auto;
+
+    }
+
+    .contenedor img
+    {
+        width: 281px;
+        height: 240px;
+    }
+
+    .contenedor h2
+    {
+        position: absolute;
+        left: 24px;
+        top: 264px;
+    }
+
+    .contenedor h1 
+    {
+        position: absolute;
+        left: 24px;
+        top: 291px;
+    }
+
+    .contenedor p
+    {
+        position: absolute;
+        left: 24px;
+        top: 399px;
+    }
+
+    .contenedor span:nth-child(1)
+    {
+        position: absolute;
+        left: 19px;
+        top: 514px;
+    }
+
+    .contenedor span:nth-child(2)
+    {
+        position: absolute;
+        left: 146px;
+        top: 520px;
+    }
+    
+    .contenedor   button
+    {
+        position: absolute;
+        left: 25px;
+        top: 553px;
+    }
+}
+
+
+@media (min-width:375px) and (max-width:768px) 
+{
+    .contenedor
+    {
+        width: 281px;
+        height: 611px;
+        position: absolute;
+        transform: translate3d(-50%,-50%,0);
+        left: 50%;
+        top: 50%;
+       
+    }
+
+    .contenedor img
+    {
+        width: 281px;
+        height: 240px;
+    }
+
+    .contenedor h2
+    {
+        position: absolute;
+        left: 24px;
+        top: 264px;
+    }
+
+    .contenedor h1 
+    {
+        position: absolute;
+        left: 24px;
+        top: 291px;
+    }
+
+    .contenedor p
+    {
+        position: absolute;
+        left: 24px;
+        top: 399px;
+    }
+
+    .contenedor span:nth-child(1)
+    {
+        position: absolute;
+        left: 19px;
+        top: 514px;
+    }
+
+    .contenedor span:nth-child(2)
+    {
+        position: absolute;
+        left: 146px;
+        top: 520px;
+    }
+    
+    .contenedor   button
+    {
+        position: absolute;
+        left: 25px;
+        top: 553px;
+    }
+}
+
+
